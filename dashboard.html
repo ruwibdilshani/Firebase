@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+          background-color: #9dabe3; /* Light background for a modern look */
+          font-family: "Arial", sans-serif;
+        }
+  
+        .container {
+          max-width: 600px;
+          max-height: 600px;
+          background-color: #ffffff; /* White background for form */
+          padding: 30px;
+          border-radius: 10px;
+          box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+          color: #333;
+          margin-top: 50px;
+        }
+  
+        h2 {
+          text-align: center;
+          margin-bottom: 20px;
+          font-weight: bold;
+          color: #007bff; /* Vivid blue for the heading */
+        }
+  
+        .form-group label {
+          font-weight: 600;
+          color: #333; /* Darker color for better readability */
+        }
+  
+        .form-control {
+          background-color: #f0f4f8; /* Soft light grey for form fields */
+          border: 1px solid #ced4da;
+          border-radius: 6px;
+          color: #333;
+        }
+  
+        .form-control::placeholder {
+          color: #6c757d;
+        }
+  
+        .form-control:focus {
+          background-color: #ffffff;
+          border-color: #007bff; /* Blue border on focus */
+          box-shadow: none;
+          color: #333;
+        }
+  
+        .btn-primary {
+          width: 100%;
+          background-color: #28a745; /* Green for a positive action */
+          border: none;
+          padding: 10px;
+          font-size: 16px;
+          border-radius: 6px;
+          transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+  
+        .btn-primary:hover {
+          background-color: #218838; /* Slightly darker green on hover */
+          box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
+        }
+  
+        .btn-link {
+          color: #007bff;
+          display: block;
+          text-align: center;
+          margin-top: 15px;
+          font-size: 14px;
+          text-decoration: none;
+          transition: color 0.3s ease;
+        }
+  
+        .btn-link:hover {
+          color: #0056b3; /* Darker blue on hover */
+          text-decoration: underline;
+        }
+  
+        /* Media Queries for Mobile View */
+        @media (max-width: 768px) {
+          .container {
+            padding: 20px;
+          }
+        }
+      </style>
+</head>
+<body>
+    <h1>dashboard</h1>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+</html>
